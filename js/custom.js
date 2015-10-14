@@ -653,16 +653,16 @@ function revSliderCarousel(){
                 var windowHeight = $(window).height(); // get the height of the window
                 var docHeight = $(document).height();
 
-                for (var i = 0; i < aArray.length; i++) {
-                    var theID = aArray[i];
-                    var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-                    var divHeight = $(theID).outerHeight(); // get the height of the div in question
-                    if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
-                        $("a[href='" + theID + "']").addClass("active");
-                    } else {
-                        $("a[href='" + theID + "']").removeClass("active");
-                    }
-                }
+//                for (var i = 0; i < aArray.length; i++) {
+//                    var theID = aArray[i];
+//                    var divPos = $(theID).offset().top; // get the offset of the div from the top of page
+//                    var divHeight = $(theID).outerHeight(); // get the height of the div in question
+//                    if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+//                        $("a[href='" + theID + "']").addClass("active");
+//                    } else {
+//                        $("a[href='" + theID + "']").removeClass("active");
+//                    }
+//                }
 
                 if (windowPos + windowHeight == docHeight) {
                     if (!$(".WeZone-menu li:last-child a").hasClass("active")) {
