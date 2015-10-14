@@ -8763,3 +8763,7 @@ label {
 .item iframe {
     margin: 0px auto 20px;
 }
+
+footer a{
+    color: #9a8d5e;
+}
