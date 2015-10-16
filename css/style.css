@@ -2772,6 +2772,11 @@ a[data-popup] {
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
+
+.header-video__title.smallText {
+    font-size: 50px;
+}
+
 @media (max-width: 1599px) {
     .header-video__title {
         font-size: 90px;
@@ -3357,7 +3362,7 @@ a[data-popup] {
     margin: 0 auto;
     z-index: 1;
     /* @editable properties */
-    height: 400px;
+    height: 600px;
 }
 
 .cbp:before {
@@ -8942,6 +8947,13 @@ button.reverse{
     background: #fefcfd;
     color: #121314;
 }
+button.vc-vote{
+    background: #fefcfd;
+    color: #9a8d5e;
+    border: 1px solid #9a8d5e;
+    font-size: 16px;
+    padding: 5px 20px;
+}
 
 .no-margin-top{
     margin-top: 0px;
@@ -8949,4 +8961,66 @@ button.reverse{
 
 .emailList.small{
     width: 35%;
+}
+
+.team-detail-panel{
+    background: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+.team-spec-wrap{
+    padding: 30px 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.small-divider{
+    margin: 25px auto;
+    border-bottom: 1px dashed #9a8d5e;
+}
+span.field-tag{
+    background: #9a8d5e;
+    color: #f5f5f5;
+    font-weight: 200;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.4);
+}
+.vc-button-warp{
+    margin: 30px auto;
+    text-align: center;
+}
+.item-description__tags.vc-tag{
+    color: #9a8d5e;
+}
+
+.project-comment-wrap{
+    background: white;
+    margin: 30px auto;
+    padding: 40px 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.comment-bg{
+    /*background-position: 36px 20px;*/
+}
+.project-description{
+    margin: 100px auto;
+    padding: 20px 50px;
+}
+.full-height{
+    height: 500px;
+    display: block;
+}
+
+
+.team-detail-panel .dis-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.team-detail-panel .dis-table .dis-cell {
 }
