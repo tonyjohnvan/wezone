@@ -1155,7 +1155,6 @@ function headerVideo() {
             standardLightBox();
             masterSliderAjax();
             storyBg();
-
         });
 
 

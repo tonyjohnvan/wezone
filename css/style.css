@@ -2888,6 +2888,28 @@ a[data-popup] {
     color: #9a8d5e;
     border-radius: 100%;
 }
+#projectVideo {
+    position: relative;
+    overflow: hidden;
+}
+
+#projectVideo iframe,
+#projectVideo video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#projectVideo iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#projectVideo video {
+    width: 100%;
+}
 
 /*-----------------------------------------------------------------------------
    14. Main
@@ -8872,4 +8894,59 @@ p.commentText{
 }
 button{
     outline: none;
+}
+
+
+/* -----------------------------
+           Project Page
+   -----------------------------*/
+#projectVideo .header-video__title{
+    top: 40%;
+    text-transform: uppercase;
+}
+#projectVideo .header-video__play-trigger{
+    top: 58%;
+}
+#projectVideo .header-video__sub-title{
+    top: 70%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.line-Big{
+    width: 200px;
+    height: 6px;
+    background: #000000;
+    position: absolute;
+    margin-top: -88px;
+    z-index: 3;
+}
+.line-small{
+    width: 50px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    margin-top: 88px;
+    z-index: 3;
+}
+.bg-pattern a{
+    color: #9a8d5e;
+}
+.bg-pattern a:hover{
+    color: #baaa72;
+}
+.small-padding-top{
+    padding-top: 10px;
+}
+button.reverse{
+    background: #fefcfd;
+    color: #121314;
+}
+
+.no-margin-top{
+    margin-top: 0px;
+}
+
+.emailList.small{
+    width: 35%;
 }
