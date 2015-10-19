@@ -26,12 +26,30 @@ WeZone CSS V.1
 20. Footer
 
 -------------------------------------------------------------------*/
+@font-face {
+    font-family: "PingFangM";
+    src: url("../fonts/chinese/PingFang_Medium.ttf");
+}
+/*@font-face {*/
+    /*font-family: PingFangR;*/
+    /*src: url("../fonts/chinese/PingFang_Regular.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: PingFangB;*/
+    /*src: url("../fonts/chinese/PingFang_Bold.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: PingFangL;*/
+    /*src: url("../fonts/chinese/PingFang_Light.ttf");*/
+/*}*/
+
 /*-----------------------------------------------------------------------------
    1. Global
 -----------------------------------------------------------------------------*/
 html {
     box-sizing: border-box;
 }
+
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -53,7 +71,9 @@ html.full-width {
 
 body {
     min-height: 100%;
-    font: normal 16px/24px "Ubuntu", sans-serif;
+    /*font: normal 16px/24px "Ubuntu", sans-serif;*/
+
+    font-family: normal 16px/24px "PingFangM";
     color: #8a909b;
     -webkit-font-smoothing: subpixel-antialiased;
     letter-spacing: 1px;
@@ -9113,4 +9133,7 @@ span.field-tag{
 
 .underline.fullWidth{
     width: 100%;
+}
+button.big-margin-top{
+    margin-top: 500px;
 }
