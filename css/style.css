@@ -260,8 +260,8 @@ button {
 }
 
 .space-y {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .space-y-half {
@@ -2933,6 +2933,9 @@ a[data-popup] {
 .deco-parting, .counter-content {
     background-image: url(../images/pattern/pattern-dark.jpg);
 }
+.dark-bg, .counter-content {
+    background-image: url(../images/pattern/pattern-dark.jpg);
+}
 
 .deco-parting .col-md-12 {
     display: inline-block;
@@ -3216,7 +3219,7 @@ a[data-popup] {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(242, 111, 112, 0.9);
+    background-color: rgba(154, 141, 94, 0.88);
     color: #fff;
     text-transform: capitalize;
     opacity: 0;
@@ -8281,7 +8284,7 @@ a[data-popup] {
     transform: translate3d(0, 10%, 0);
     -webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-    background: rgba(242, 111, 112, 0.9);
+    background: rgba(154, 141, 94, 0.5);
 }
 
 .block-item .block-item__details {
@@ -8972,8 +8975,10 @@ button.vc-vote{
 }
 .team-spec-wrap{
     padding: 30px 50px;
-    display: table-cell;
+    display: block;
     vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
 }
 .small-divider{
     margin: 25px auto;
@@ -9016,9 +9021,9 @@ span.field-tag{
     display: block;
 }
 .project-text{
-    margin: 40px auto;
+    margin: 30px auto;
     text-align: center;
-    padding: 40px 80px !important;
+    padding: 30px 80px !important;
 }
 .project-text .item-description__title{
     margin-top: 0;
@@ -9058,4 +9063,54 @@ span.field-tag{
 
 .project-text .item-description__tags li:first-child:before {
     content: none;
+}
+.person-text{
+    font-size: 22px;
+    margin-right: 50px;
+}
+.person-text .person-button-wrapper{
+    display: inline-block;
+    margin-left: 50px;
+}
+.person-text .person-button-wrapper button{
+    font-size: 18px;
+    border: 2px solid #9a8d5e;
+    color: #9a8d5e;
+}
+.person-text .person-button-wrapper button:hover{
+    font-size: 18px;
+    border: 2px solid #baaa72;
+    background: #baaa72;
+    color: #ffffff;
+}
+.person-header{
+    color: #9a8d5e;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: right;
+    margin: 0;
+}
+
+.vc-detail{
+    padding: 50px 100px;
+}
+.vc-detail p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #f5f5f5;
+    line-height: 1.1;
+    margin-top: 5px;
+}
+.vc-detail h1{
+    font-weight: 100;
+    text-align: right;
+}
+.vc-detail .col-md-6{
+    margin: 10px auto;
+}
+
+.underline.fullWidth{
+    width: 100%;
 }

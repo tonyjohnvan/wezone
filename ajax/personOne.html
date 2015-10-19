@@ -1,0 +1,537 @@
+<header>
+
+
+    <div class="pages projectHome">
+
+        <div class="" id="projectVideo">
+
+            <div class="color-bg" data-color-bg="#fff" data-opacity=".9" data-color-zindex="3"
+                 style="height: 100%;background: rgba(255,255,255,0.8);z-index: 1;position: relative"></div>
+
+            <img src="media/video-poster.jpg"
+                 class="header-video__media"
+                 data-video-URL="https://www.youtube.com/embed/eiWSoImHZCc"
+                 data-teaser="media/draw"
+                 data-video-width="560"
+                 data-video-height="315">
+
+            <div class="header-video__title line-Big"></div>
+
+            <h1 class="header-video__title">徐小平</h1>
+
+            <div class="header-video__title line-small"></div>
+
+            <h2 class="header-video__sub-title">真格基金创始人·投资人</h2>
+
+
+            <a href="https://www.youtube.com/embed/eiWSoImHZCc" class="header-video__play-trigger"
+               id="header-video__play-trigger">
+                <!--Play Video<br>-->
+                <i class="fa fa-play"></i>
+            </a>
+
+            <button type="button" class="header-video__close-trigger" id="header-video__close-trigger"><i
+                    class="fa fa-close"></i></button>
+
+        </div>
+        <!-- / header video -->
+
+    </div>
+    <!-- end home -->
+
+    <script>
+
+
+        var isMobile = {
+            Android: function () {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function () {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function () {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function () {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function () {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function () {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+
+        function headerVideo() {
+            headerVideo = new HeaderVideo({
+                element: $("#projectVideo"),
+                media: '.header-video__media',
+                playTrigger: '.header-video__play-trigger',
+                closeTrigger: '.header-video__close-trigger'
+            });
+        }
+
+        jQuery(document).ready(function () {
+            headerVideo();
+        });
+    </script>
+
+</header>
+<!-- end post intro-->
+
+
+
+
+
+
+<div id="about" class="pages">
+
+
+    <div class="container-fluid dark-bg row vc-detail">
+        <div class="col-md-6">
+            <h2 class="person-header">投资风格</h2>
+        </div>
+        <div class="col-md-6">
+            <p class="person-header-text">种子轮/天使轮、Pre-A、A</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="person-header">单个项目投资额度</h2>
+        </div>
+        <div class="col-md-6">
+            <p class="person-header-text">300万-3000万RMB</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="person-header">计划一年投资项目</h2>
+        </div>
+        <div class="col-md-6">
+            <p class="person-header-text">10个</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="person-header">关注领域</h2>
+        </div>
+        <div class="col-md-6">
+            <p class="person-header-text">汽车、医疗保险、人工智能、B2B、SaaS</p>
+        </div>
+
+    </div>
+    <!-- / container-fluid -->
+
+    <div class="container-fluid-flat text-center counter-content">
+
+        <div class="row">
+
+            <div class="counter dark-bg col-md-3 col-sm-6 space-y">
+                <!--<i class="pe-7s-coffee pe-3x" data-animation="fadeInUp"></i>-->
+
+                <div class="timer" data-to="35500" data-speed="2000">2014年</div>
+                <div class="label">开始投资</div>
+
+            </div>
+            <div class="counter dark-bg col-md-3 col-sm-6 space-y">
+                <!--<i class="pe-7s-medal pe-3x animated" data-animation="fadeInUp" data-animation-delay="200"></i>-->
+
+                <div class="timer" data-to="199" data-speed="2000">5个</div>
+                <div class="label">已投项目</div>
+
+            </div>
+            <div class="counter dark-bg col-md-3 col-sm-6 space-y">
+                <!--<i class="pe-7s-bicycle pe-3x animated" data-animation="fadeInUp" data-animation-delay="400"></i>-->
+
+                <div class="timer" data-to="565" data-speed="2000">3个</div>
+                <div class="label">持续项目</div>
+
+            </div>
+            <div class="counter dark-bg col-md-3 col-sm-6 space-y">
+                <!--<i class="pe-7s-users pe-3x animated" data-animation="fadeInUp" data-animation-delay="600"></i>-->
+
+                <div class="timer" data-to="222" data-speed="2000">12个</div>
+                <div class="label">剩余名额</div>
+
+            </div>
+
+        </div>
+        <!-- end row -->
+
+    </div>
+    <!--end container-fluid-flat -->
+
+</div>
+<!-- end about -->
+
+<div id="team" class="pages">
+
+<div class="container space-y-t">
+
+    <div class="row">
+
+        <div class="col-md-12 text-center">
+
+            <h1 class="section-header">投资案例 <span class="underline fullWidth"></span>
+            </h1>
+
+        </div>
+        <!-- / col-md-12 -->
+
+    </div>
+    <!-- / row -->
+
+</div>
+<!-- / container -->
+
+
+<div class="container-fluid-flat mag-popup highlight-section2"
+     data-popup-type="inline"
+     data-popup-gallery-enable="false"
+     data-popup-main-class="mfp-fade-x"
+     data-popup-removal-delay="800">
+
+    <div class="row equal-height">
+
+        <div class="col-md-6">
+
+            <div class="row">
+
+                <ul class="img-grid">
+
+                    <li class="col-md-6 col-sm-6">
+
+                        <a href="#team1" class="team-block mag-lightbox">
+
+                            <img src="http://placehold.it/747x747" alt="">
+
+                            <div class="team-block__details">
+
+                                <h3>巴图鲁</h3>
+
+                                <p>公司阶段 <i class="separator fa  fa-minus"></i> 已完成A轮</p>
+
+                                <div class="team-block__icon"> 点击查看更多
+                                    <i class="fa fa-plus"></i>
+                                </div>
+
+                            </div>
+
+                        </a>
+
+                        <div id="team1" class="team-details mfp-hide">
+
+                            <h3 class="standard-title">巴图鲁</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo cumque id odit
+                                dolorum error debitis sunt aperiam sequi rerum! Aliquam suscipit magni velit error
+                                numquam consectetur voluptates facere modi totam.</p>
+
+                            <ul class="team-details__social-icons clearfix">
+
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </li>
+                    <!-- end col-lg-3 -->
+
+                    <li class="col-md-6 col-sm-6">
+
+                        <a href="#team2" class="team-block mag-lightbox">
+
+                            <img src="http://placehold.it/747x747" alt="">
+
+                            <div class="team-block__details">
+
+                                <h3>Mobido</h3>
+
+                                <p>公司阶段 <i class="separator fa  fa-minus"></i> 已完成天使轮</p>
+
+                                <div class="team-block__icon"> 点击查看更多
+                                    <i class="fa fa-plus"></i>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <!-- / team-band-creative -->
+
+                        <div id="team2" class="team-details mfp-hide">
+
+                            <h3 class="standard-title">Mobido</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo cumque id odit
+                                dolorum error debitis sunt aperiam sequi rerum! Aliquam suscipit magni velit error
+                                numquam consectetur voluptates facere modi totam.</p>
+
+                            <ul class="team-details__social-icons clearfix">
+
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </li>
+                    <!-- end col-lg-3 -->
+
+                </ul>
+                <!-- / img-grid -->
+
+            </div>
+            <!-- / row -->
+
+        </div>
+        <!-- / col-md-6 -->
+
+
+
+        <div class="col-md-6">
+
+            <div class="row">
+
+                <ul class="img-grid">
+
+                    <li class="col-md-6 col-sm-6">
+
+                        <a href="#team3" class="team-block mag-lightbox">
+
+                            <img src="http://placehold.it/747x747" alt="">
+
+                            <div class="team-block__details">
+
+                                <h3>考拉先生/生活圈</h3>
+
+                                <p>公司阶段 <i class="separator fa  fa-minus"></i> 已完成A轮</p>
+
+                                <div class="team-block__icon"> 点击查看更多
+                                    <i class="fa fa-plus"></i>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <!-- / team-band-creative -->
+
+                        <div id="team3" class="team-details mfp-hide">
+
+                            <h3 class="standard-title">考拉先生/生活圈</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo cumque id odit
+                                dolorum error debitis sunt aperiam sequi rerum! Aliquam suscipit magni velit error
+                                numquam consectetur voluptates facere modi totam.</p>
+
+                            <ul class="team-details__social-icons clearfix">
+
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </li>
+                    <!-- end col-lg-3 -->
+
+                    <li class="col-md-6 col-sm-6">
+
+                        <a href="#team4" class="team-block mag-lightbox">
+
+                            <img src="http://placehold.it/747x747" alt="">
+
+                            <div class="team-block__details">
+
+                                <h3>Modelo</h3>
+
+                                <p>公司阶段 <i class="separator fa  fa-minus"></i> 已完成A轮</p>
+
+                                <div class="team-block__icon"> 点击查看更多
+                                    <i class="fa fa-plus"></i>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <!-- / team-band-creative -->
+
+                        <div id="team4" class="team-details mfp-hide">
+
+                            <h3 class="standard-title">Modelo</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo cumque id odit
+                                dolorum error debitis sunt aperiam sequi rerum! Aliquam suscipit magni velit error
+                                numquam consectetur voluptates facere modi totam.</p>
+
+                            <ul class="team-details__social-icons clearfix">
+
+                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </li>
+                    <!-- end col-lg-3 -->
+
+                </ul>
+                <!-- / img-grid -->
+
+            </div>
+            <!-- / row -->
+
+        </div>
+        <!-- / col-md-6 -->
+
+
+    </div>
+    <!-- / row -->
+
+</div>
+<!-- / container-fluid-flat -->
+
+</div>
+<!-- end team -->
+
+
+<div id="button" class="pages">
+
+    <div class="container space-y-t">
+
+        <div class="row">
+
+            <div class="col-md-12 text-center">
+
+                <h2 class="person-button-wrapper">
+                    <button class="btn-main enlist"><span>向他提交项目</span></button>
+                </h2>
+
+
+            </div>
+            <!-- / col-md-12 -->
+
+        </div>
+        <!-- / row -->
+
+    </div>
+    <!-- / container -->
+</div>
+
+
+<div class="container-fluid-flat bg-pattern comment-bg">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="project-comment-wrap">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES * * */
+                    var disqus_shortname = 'wezone';
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                                                                  rel="nofollow">comments powered by Disqus.</a>
+                </noscript>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid text-center item-footer">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <h3 class="second-title">&copy; WeZone 2015</h3>
+
+            <div class="container space-y-t small-padding-top">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+                        <p>*你可以在此提交您的电子邮箱地址，我们会第一时间联络您。</p>
+                    </div>
+                    <!-- / col-md-12 -->
+
+
+                    <div class="col-md-12 text-center emailListWrap">
+
+                        <input type="text" class="emailList small" placeholder="email"/>
+
+
+                        <!-- Begin Submit button -->
+                        <div class="quform-submit-overlay col-md-12 clearfix">
+                            <button type="submit" value="Send" class="btn-main small reverse"><span>订阅 Newsletter</span>
+                            </button>
+                        </div>
+                        <!-- End Submit button -->
+                    </div>
+
+                </div>
+                <!-- / row -->
+
+            </div>
+            <!-- / container -->
+
+            <ul class="item-share no-margin-top">
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                </li>
+                <li><a class="heart-count" href="javascript:void(0)"><i class="fa fa-heart-o fa-heart"></i></a>
+                </li>
+            </ul>
+
+            <ul class="item-share smallText">
+                <li><a href="">联系我们</a></li>
+                |
+                <li><a href="">其他联系</a></li>
+                |
+                <li><a href="">法律条款</a></li>
+            </ul>
+
+        </div>
+        <!-- / col-md-12 -->
+
+    </div>
+    <!-- / row -->
+
+</div>
+<!-- / container -->
