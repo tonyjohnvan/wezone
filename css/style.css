@@ -9149,3 +9149,7 @@ span.field-tag{
 button.big-margin-top{
     margin-top: 500px;
 }
+
+.mm-menu-toggle{
+    display: none;
+}
