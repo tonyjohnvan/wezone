@@ -9150,6 +9150,23 @@ button.big-margin-top{
     margin-top: 500px;
 }
 
-.mm-menu-toggle{
-    display: none;
+.media-title{
+    color: #6a6a6a;
+}
+.media-des{
+    margin: 20px 10px;
+}
+.mm-menu__address a{
+    color: #ffefcc;
+}
+.mm-menu__address a:hover{
+    color: #fffbe6;
+}
+.requirement-section .space-y{
+    /*padding: 10px 20px;*/
+    min-height: 310px;
+}
+.requirement-section .space-y ul{
+    padding: 10px 20px;
+    text-align: left;
 }
