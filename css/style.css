@@ -73,9 +73,9 @@ html.full-width {
 
 body {
     min-height: 100%;
-    /*font: normal 16px/24px "Ubuntu", sans-serif;*/
+    font: normal 16px/24px "Ubuntu", sans-serif;
 
-    font-family: normal 16px/24px "PingFangM";
+    /*font-family: normal 16px/24px "PingFangM";*/
     color: #8a909b;
     -webkit-font-smoothing: subpixel-antialiased;
     letter-spacing: 1px;
@@ -9171,4 +9171,34 @@ button.big-margin-top{
 .requirement-section .space-y ul{
     padding: 10px 20px;
     text-align: left;
+}
+
+.color-inverse .nav-wrap{
+    background: #333;
+}
+.color-inverse .header-fill .WeZone-menu > li > a{
+    color: #fff ;
+}
+.color-inverse .header-fill .WeZone-menu > li > a.active{
+    color: #9a8d5e ;
+}
+.color-inverse .is-fill .mm-menu-toggle span, .is-fill .mm-menu-toggle span::before, .is-fill .mm-menu-toggle span::after, .header-fill .mm-menu-toggle span, .header-fill .mm-menu-toggle span::before, .header-fill .mm-menu-toggle span::after{
+    background-color: #fefefe;
+}
+
+.color-inverse .btn-main.header{
+    border: 2px solid #DEDEDE;
+    color: #fefefe;
+}
+.color-inverse .header-video__play-trigger{
+    color: #fefefe;
+}
+.color-inverse h1, h2, h3, h4, h5, h6{
+    color: #fefefe;
+}
+.color-inverse .highlight-section{
+    background-color: #232323;
+}
+.color-inverse .pages, .color-inverse .bg-pattern{
+    background-image: url(../images/pattern/pattern-light-alt.png);
 }
