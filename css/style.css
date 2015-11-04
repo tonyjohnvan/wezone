@@ -9202,3 +9202,98 @@ button.big-margin-top{
 .color-inverse .pages, .color-inverse .bg-pattern{
     background-image: url(../images/pattern/pattern-light-alt.png);
 }
+.color-inverse .bubble .bubble-center{
+    background-color: #232323;
+    color: #fefefe;
+}
+.color-inverse .bubble span{
+    color: #fefefe;
+}
+
+@media (max-width: 991px) {
+    .color-inverse .bubble ul li {
+        width: 110px;
+        height: 110px;
+        margin: .5em;
+        position: relative;
+        top: auto;
+        left: auto;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 993px) {
+    .color-inverse .bubble ul .e-commerc {
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        left: -20px;
+        background-color: rgba(6,6,6, 0.5);
+    }
+
+    .color-inverse .bubble ul .html5 {
+        width: 150px;
+        height: 150px;
+        top: 50px;
+        left: 100px;
+        background-color: rgba(6,6,6, 0.4);
+    }
+
+    .color-inverse .bubble ul .print {
+        width: 180px;
+        height: 180px;
+        top: 0;
+        left: 240px;
+        background-color: rgba(6,6,6, 0.55);
+    }
+
+    .color-inverse .bubble ul .responsive {
+        width: 160px;
+        height: 160px;
+        top: 70px;
+        right: 40px;
+        background-color: rgba(6,6,6, 0.42);
+    }
+
+    .color-inverse .bubble ul .ui {
+        width: 220px;
+        height: 220px;
+        top: 230px;
+        right: -30px;
+        background-color: rgba(6,6,6, 0.5);
+    }
+
+    .color-inverse .bubble ul .branding {
+        width: 210px;
+        height: 210px;
+        bottom: 0px;
+        right: 80px;
+        background-color: rgba(6,6,6, 0.3);
+    }
+
+    .color-inverse .bubble ul .bloging {
+        width: 150px;
+        height: 150px;
+        bottom: 110px;
+        left: 60px;
+        background-color: rgba(6,6,6, 0.2);
+    }
+
+    .color-inverse .bubble ul .motion {
+        width: 180px;
+        height: 180px;
+        bottom: 0;
+        left: 140px;
+        background-color: rgba(6,6,6, 0.45);
+    }
+
+    .color-inverse .bubble ul .mobile {
+        width: 170px;
+        height: 170px;
+        bottom: 110px;
+        left: -90px;
+        background-color: rgba(6,6,6, 0.3);
+    }
+}
