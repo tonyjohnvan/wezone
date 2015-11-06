@@ -8809,13 +8809,13 @@ label {
     position: absolute;
     z-index: 100;
     cursor: pointer;
-    width: 170px;
+    width: 260px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     display: block;
     top: 60px;
-    left: 15px;
+    left: 0px;
 }
 
 .radio {
@@ -8824,10 +8824,11 @@ label {
 
 .radio:checked + .relative label {
     cursor: auto;
-    width: 170px;
+    width: 260px;
     -webkit-transition: all 0.3s linear 0.2s;
     -moz-transition: all 0.3s linear 0.2s;
     transition: all 0.3s linear 0.2s;
+    left: 15px;
 }
 
 .radio:checked + .relative .circle {
@@ -8835,9 +8836,9 @@ label {
 }
 
 .radio:checked ~ .content {
-    max-height: 180px;
+    max-height: 280px;
     border-color: #eee9dc;
-    width: 200px;
+    width: 260px;
     -webkit-transition: all 0.3s linear 0.3s;
     -moz-transition: all 0.3s linear 0.3s;
     transition: all 0.3s linear 0.3s;
